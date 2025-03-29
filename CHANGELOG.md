@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`b3cc07f`](https://github.com/stdlib-js/stdlib/commit/b3cc07f34d99c6d87e98edd43e830116da6488af) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`2aeee4c`](https://github.com/stdlib-js/stdlib/commit/2aeee4c7d5925050fa84107f62819dd833e8796d) - **feat:** add `stats/strided/dnanvarianceyc` _(by Aayush Khanna)_
 
 </details>
