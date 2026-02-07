@@ -110,6 +110,11 @@ The use of the term `n-1` is commonly referred to as Bessel's correction. Note, 
 ## Usage
 
 ```javascript
+import dnanvarianceyc from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dnanvarianceyc@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-strided-dnanvarianceyc/tags). For example,
+
+```javascript
 import dnanvarianceyc from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dnanvarianceyc@v0.1.1-esm/index.mjs';
 ```
 
@@ -220,7 +225,7 @@ var v = dnanvarianceyc.ndarray( 5, 1, x, 2, 1 );
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform@esm/index.mjs';
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@esm/index.mjs';
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bernoulli@esm/index.mjs';
-import dnanvarianceyc from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dnanvarianceyc@v0.1.1-esm/index.mjs';
+import dnanvarianceyc from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dnanvarianceyc@esm/index.mjs';
 
 function rand() {
     if ( bernoulli( 0.8 ) < 1 ) {
